@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "phonegenius_twilio_gemini.py"]
+CMD ["python", "phonegenius_ultra.py"]
