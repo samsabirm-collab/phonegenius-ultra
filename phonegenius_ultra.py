@@ -176,7 +176,7 @@ async def stream_gemini_response(prompt):
                 # Yield tokens as they arrive (real-time streaming)
                 yield chunk.text
         
-        return full_response
+        return 
     except Exception as e:
         print(f"Gemini error: {e}")
         yield "I understand. Tell me more about your situation."
